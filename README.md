@@ -1,4 +1,4 @@
-genexword
+GenExWord
 =========
 
 Generate exist word
