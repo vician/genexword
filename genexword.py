@@ -18,7 +18,7 @@ if len (sys.argv) != 3 :
 
 # transalator
 translator = Translator(from_lang="en",to_lang="cs")
-# dictnary
+# dictionary
 d = enchant.Dict("en_US")
 
 # get params
@@ -33,7 +33,7 @@ for p in itertools.permutations(chars,length):
 	print "\r",i,
 	word = ''.join(p)
 	if d.check(word):
-		if word not in words: # if is already finded?
+		if word not in words: # already found
 			words.append(word)
 			print "\r",word,
 			print "->",translator.translate(word),
