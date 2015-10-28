@@ -14,9 +14,11 @@ This script also uses Google translator for translation to your native language.
 	https://github.com/terryyin/google-translate-python
 
 ## Usage:
+```
 ./genexword listchars N
 	listchars is list of availible char
 	N is lenght of finding word
+```
 
 ### Example:
-./genexword anzpwesq 4
+`./genexword anzpwesq 4`
