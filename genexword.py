@@ -1,6 +1,6 @@
 #!/bin/python
 #
-# @author Martin Vician
+# @author Martin Vician <info@vician.cz>
 #
 
 import sys
